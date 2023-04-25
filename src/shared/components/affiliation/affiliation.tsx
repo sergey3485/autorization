@@ -1,13 +1,8 @@
 import * as React from 'react';
 import {
   Box,
-  Heading,
-  Text,
   Button,
-  Space,
   Stack,
-  Divider,
-  Container,
 } from '@effable/react';
 
 import Google from '@/shared/icons/Google';

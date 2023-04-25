@@ -84,15 +84,15 @@ const LoginPage: ExtendedNextPage = () => {
               alignItems="center"
             >
               <Box
-                width="100%"
+                width="128px"
               >
                 <Divider />
               </Box>
               <Box width="max-content">
-                <Text>Or sign in with</Text>
+                <Text>Or sign up with</Text>
               </Box>
               <Box
-                width="100%"
+                width="128px"
               >
                 <Divider />
               </Box>
@@ -106,7 +106,11 @@ const LoginPage: ExtendedNextPage = () => {
             justifyContent="center"
             alignItems="center"
           >
-            1
+            <Stack
+              space="2x"
+            >
+              1
+            </Stack>
           </Box>
           <Space h="9x" />
 

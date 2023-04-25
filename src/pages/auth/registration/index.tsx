@@ -88,7 +88,7 @@ const RegistrationPage: ExtendedNextPage = () => {
               alignItems="center"
             >
               <Box
-                width="100%"
+                width="128px"
               >
                 <Divider />
               </Box>
@@ -96,7 +96,7 @@ const RegistrationPage: ExtendedNextPage = () => {
                 <Text>Or sign in with</Text>
               </Box>
               <Box
-                width="100%"
+                width="128px"
               >
                 <Divider />
               </Box>

@@ -84,24 +84,9 @@ const RegistrationPage: ExtendedNextPage = () => {
           <Box
             width="100%"
           >
-            <Stack
-              space="2x"
-              alignItems="center"
-            >
-              <Box
-                width="128px"
-              >
-                <Divider />
-              </Box>
-              <Box width="max-content">
-                <Text>Or sign in with</Text>
-              </Box>
-              <Box
-                width="128px"
-              >
-                <Divider />
-              </Box>
-            </Stack>
+            <Divider
+              label={<Text color="text.primary">Or sign up with</Text>}
+            />
           </Box>
           <Space h="8x" />
 

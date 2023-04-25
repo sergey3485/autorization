@@ -12,6 +12,4 @@ const Template: Story<RestorePasswordFormProps> = (args) => <RestorePasswordForm
 
 export const Basic = Template.bind({});
 
-Basic.args = {
-  children: 'RestorePasswordForm',
-};
+Basic.args = {};

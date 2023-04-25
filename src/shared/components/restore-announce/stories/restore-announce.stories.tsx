@@ -12,6 +12,4 @@ const Template: Story<RestoreAnnounceProps> = (args) => <RestoreAnnounce {...arg
 
 export const Basic = Template.bind({});
 
-Basic.args = {
-  children: 'RestoreAnnounce',
-};
+Basic.args = {};

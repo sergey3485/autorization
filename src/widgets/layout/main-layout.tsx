@@ -4,7 +4,6 @@ import {
   Heading,
   Stack,
   Text,
-  Container,
 } from '@effable/react';
 
 export interface MainLayoutProps {

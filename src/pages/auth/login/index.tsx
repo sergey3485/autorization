@@ -106,7 +106,7 @@ const LoginPage: ExtendedNextPage = () => {
 
           <Box>
             <Stack space="2x">
-              <Text>Don't have an account yet?</Text>
+              <Text>Don&rsquo;t have an account yet?</Text>
               <Text component="a" color="accent.accent11" href="registration">Sign up</Text>
             </Stack>
           </Box>

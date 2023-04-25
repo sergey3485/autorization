@@ -11,6 +11,7 @@ import {
 } from '@effable/react';
 import { ExtendedNextPage } from '@/shared/types/extended-next-page';
 import { MainLayout } from '@/layout/main-layout';
+import { Affiliation } from '@/shared/components/affiliation';
 
 const LoginPage: ExtendedNextPage = () => {
   return (
@@ -60,7 +61,7 @@ const LoginPage: ExtendedNextPage = () => {
           </Box>
 
           <Box width="100%">
-            <Text component="a" color="accent.accent11" href="auth/restore-password">Forgot password?</Text>
+            <Text component="a" color="accent.accent11" href="restore-password">Forgot password?</Text>
           </Box>
           <Space h="6x" />
 
@@ -100,24 +101,13 @@ const LoginPage: ExtendedNextPage = () => {
           </Box>
           <Space h="8x" />
 
-          <Box
-            display="flex"
-            width="100%"
-            justifyContent="center"
-            alignItems="center"
-          >
-            <Stack
-              space="2x"
-            >
-              1
-            </Stack>
-          </Box>
+          <Affiliation />
           <Space h="9x" />
 
           <Box>
             <Stack space="2x">
               <Text>Don't have an account yet?</Text>
-              <Text component="a" color="accent.accent11">Sign up</Text>
+              <Text component="a" color="accent.accent11" href="registration">Sign up</Text>
             </Stack>
           </Box>
         </Box>

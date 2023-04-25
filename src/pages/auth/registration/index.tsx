@@ -11,6 +11,7 @@ import {
 } from '@effable/react';
 import { ExtendedNextPage } from '@/shared/types/extended-next-page';
 import { MainLayout } from '@/layout/main-layout';
+import { Affiliation } from '@/shared/components/affiliation';
 
 const RegistrationPage: ExtendedNextPage = () => {
   const terms = <Text component="a" color="accent.accent11">Terms of Service</Text>;
@@ -104,20 +105,13 @@ const RegistrationPage: ExtendedNextPage = () => {
           </Box>
           <Space h="8x" />
 
-          <Box
-            display="flex"
-            width="100%"
-            justifyContent="center"
-            alignItems="center"
-          >
-            1
-          </Box>
+          <Affiliation />
           <Space h="9x" />
 
           <Box>
             <Stack space="2x">
               <Text>Already have an account?</Text>
-              <Text component="a" color="accent.accent11">Sign in</Text>
+              <Text component="a" color="accent.accent11" href="login">Sign in</Text>
             </Stack>
           </Box>
         </Box>

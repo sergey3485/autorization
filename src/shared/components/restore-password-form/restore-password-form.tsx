@@ -7,8 +7,6 @@ import {
   Space,
 } from '@effable/react';
 
-import * as S from './restore-password-form.styled';
-
 export interface RestorePasswordFormProps {
   /**
    * The content
@@ -67,7 +65,7 @@ export const RestorePasswordForm = (props: RestorePasswordFormProps): JSX.Elemen
       </Box>
       <Space h="8x" />
 
-      <Text component="a" color="accent.accent11" href="auth/restore-password">Back to Sign in</Text>
+      <Text component="a" color="accent.accent11" href="login">Back to Sign in</Text>
 
     </Box>
   );

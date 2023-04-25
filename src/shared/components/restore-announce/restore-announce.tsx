@@ -7,8 +7,6 @@ import {
   Space,
 } from '@effable/react';
 
-import * as S from './restore-announce.styled';
-
 export interface RestoreAnnounceProps {
   /**
    * The content
@@ -41,7 +39,7 @@ export const RestoreAnnounce = (props: RestoreAnnounceProps): JSX.Element => {
       </Text>
       <Space h="7x" />
 
-      <Text component="a" color="accent.accent11" href="auth/restore-password">Back to Sign in</Text>
+      <Text component="a" color="accent.accent11" href="login">Back to Sign in</Text>
 
     </Box>
   );

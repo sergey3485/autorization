@@ -38,62 +38,65 @@ const RegistrationPage: ExtendedNextPage = () => {
           <Heading variant="h1">
             Create your account
           </Heading>
-          <Space h="8x" />
 
           <Box
             display="flex"
             flexDirection="column"
             width="100%"
+            marginTop="8x"
           >
             <Text>Email</Text>
             <Space h="1x" />
 
             <input />
-            <Space h="4x" />
           </Box>
 
           <Box
             display="flex"
             flexDirection="column"
             width="100%"
+            marginTop="4x"
           >
             <Text>Password</Text>
             <Space h="1x" />
 
             <input />
-            <Space h="1x" />
           </Box>
 
-          <Box width="100%">
+          <Box
+            width="100%"
+            marginTop="1x"
+          >
             <Text>By creating an account, you agree to the {terms} and the {privacy}</Text>
           </Box>
-          <Space h="6x" />
 
           <Box
             display="flex"
             flexDirection="column"
             alignItems="stretch"
             width="100%"
+            marginTop="6x"
           >
             <Button variant="primary" color="accent">
               Get started
             </Button>
           </Box>
-          <Space h="11x" />
 
           <Box
             width="100%"
+            marginTop="11x"
+            marginBottom="8x"
           >
             <Divider
               label={<Text color="text.primary">Or sign up with</Text>}
             />
           </Box>
-          <Space h="8x" />
 
           <Affiliation />
-          <Space h="9x" />
 
-          <Box>
+          <Box
+            marginTop="9x"
+          >
             <Stack space="2x">
               <Text>Already have an account?</Text>
               <Text component="a" color="accent.accent11" href="login">Sign in</Text>

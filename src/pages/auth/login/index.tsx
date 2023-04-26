@@ -34,12 +34,12 @@ const LoginPage: ExtendedNextPage = () => {
           <Heading variant="h1">
             Sign in
           </Heading>
-          <Space h="8x" />
 
           <Box
             display="flex"
             flexDirection="column"
             width="100%"
+            marginTop="8x"
           >
             <Text>Email</Text>
             <Space h="1x" />
@@ -52,44 +52,42 @@ const LoginPage: ExtendedNextPage = () => {
             display="flex"
             flexDirection="column"
             width="100%"
+            marginTop="4x"
           >
             <Text>Password</Text>
             <Space h="1x" />
 
             <input />
-            <Space h="1x" />
           </Box>
 
-          <Box width="100%">
+          <Box width="100%" marginBottom="6x" marginTop="1x">
             <Text component="a" color="accent.accent11" href="restore-password">Forgot password?</Text>
           </Box>
-          <Space h="6x" />
 
           <Box
             display="flex"
             flexDirection="column"
             alignItems="stretch"
             width="100%"
+            marginBottom="11x"
           >
             <Button variant="primary" color="accent">
               Continue
             </Button>
           </Box>
-          <Space h="11x" />
 
           <Box
             width="100%"
+            marginBottom="8x"
           >
             <Divider
               label={<Text color="text.primary">Or sign up with</Text>}
             />
           </Box>
-          <Space h="8x" />
 
           <Affiliation />
-          <Space h="9x" />
 
-          <Box>
+          <Box marginTop="9x">
             <Stack space="2x">
               <Text>Don&rsquo;t have an account yet?</Text>
               <Text component="a" color="accent.accent11" href="registration">Sign up</Text>
